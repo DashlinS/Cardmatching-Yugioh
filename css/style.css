@@ -1,0 +1,235 @@
+@font-face {
+  font-family: yugioh;
+  src: url(../font/Matrix\ Regular.ttf) format('truetype');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: yugioh;
+  font-size: 1.8rem;
+}
+
+a:hover, a:link, a:active, a:visited {
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url(../images/background1.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.allSection {
+  border: 1px solid rgb(23, 194, 224);;
+  width: 100%;
+  height: 100%;
+  border-left: none;
+  border-right: none;
+}
+
+.botCards, .userCards {
+  display: flex;
+  flex: 0 1 50%;
+  justify-content: center;
+}
+
+.playMat {
+  border: 1px solid rgb(23, 194, 224);
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: none;
+  perspective: 1000px;
+}
+
+.cardSlot {
+  /* border: 3px solid yellow; */
+  width: 10%;
+  /* height: 100%; */
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform 1.3s;
+  position: relative;
+}
+
+.topMat, .bottomMat {
+  /* border: 1px solid black; */
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.middleSection {
+  flex: 0 3 10%;
+  display: flex;
+  width: 100%;
+}
+
+.data {
+  border: 1px solid black;
+  width: 33.333%;
+  border: 1px solid rgb(23, 194, 224);
+}
+.lifePoint {
+  width: 40%;
+  height: 60%;
+}
+
+.playerScore {
+  display: flex;
+  justify-content: space-around;
+}
+
+.botScore {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+}
+
+.playerLife {
+  color:red;
+}
+
+.playerScore h3 {
+  color: red;
+}
+
+.botLife {
+  color:rgb(18, 109, 245);
+}
+
+.botScore h3 {
+  color: rgb(18, 109, 245);
+}
+
+.winLoss {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.character, .extra {
+  border: 1px solid black;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.character img{
+  width: 80%;
+}
+/* whenever clicked, change size */
+.cardSlot:active {
+  transform: scale(.95);
+  transition: transform .2s;
+}
+
+.cardSlot.flip {
+  transform: rotateY(180deg)
+}
+
+.frontOfCard, .backOfCard{
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.frontOfCard {
+  transform: rotateY(180deg);
+}
+
+.extra, .character {
+  /* display: none; */
+}
+
+/* Background side areas & title*/
+.obeliskbackground {
+  background:url(../images/obeliskbackground.png) no-repeat center;
+  background-size: cover;
+}
+
+.sliferbackground {
+  background:url(../images/Sliferbackground.png) no-repeat center;
+  background-size: cover;
+}
+
+.kaiba {
+  background:url(../images/kaiba.png) no-repeat center;
+  background-size: cover;
+}
+
+.yugimoto {
+  background:url(../images/yugi1.png) no-repeat center;
+  background-size: cover;
+}
+
+.kaiba h4, .yugimoto h4 {
+  font-family: yugioh;
+  font-size: .7rem;
+  text-align: center;
+}
+
+.character section {
+  background-color: rgba(255, 255, 255, 0.61);
+  width: 250px;
+  /* border: 4px solid black; */
+  border-radius: 10px;
+  height: 20px;
+  /* visibility: hidden; */
+}
+
+/* TITLE SECTION */
+.title { 
+  background:url(../images/yugiohtitle.gif) no-repeat center;
+  background-size: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.music{
+  /* border: 1px solid black; */
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.music i {
+  color:rgb(245, 21, 21);
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: rgb(0, 0 , 0);
+}
+
+.reset {
+  /* border: 1px solid black; */
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset a {
+  text-decoration: none;
+  font-size: 2rem;
+  color:rgb(245, 21, 21);
+  -webkit-text-stroke-width: 2.6px;
+  -webkit-text-stroke-color: rgb(0, 0 , 0);
+}
+
+/* AUDIO SECTION */
+#yugiohAudio {
+  height: 1px;
+  width: 250px;
+  margin: 0 auto;
+  visibility: hidden;
+}
+#yugiohAudio:focus {
+  outline: none;
+}
+
