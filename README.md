@@ -1,7 +1,6 @@
 # Yugioh Matching Card Game
 
-This project is a card matching game with the theme of Yugioh! Originally it was meant to be a simple card matching game with only 10 cards.. But I had this crazy idea! Why not have 2 sides and have them go against one another! It mirrors an actual Yugioh dual and with every card match, the opposing side loses life points! I loved working on this and would love some feedback!
-
+This project is a Yugioh Themed card matching game! Become the King of Games during the Battle City Tournament. With every card match, the Kaiba loses life points!
 &emsp;
 
 <img src="https://github.com/DashlinS/matching-card-bootcamp/blob/answer/images/yugiohdemo.gif" width="700">
