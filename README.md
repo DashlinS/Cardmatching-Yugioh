@@ -1,6 +1,6 @@
 # Yugioh Matching Card Game
 
-This project is a Yugioh Themed card matching game! Become the King of Games during the Battle City Tournament. With every card match, the Kaiba loses life points!
+This project is a Yugioh Themed card matching game! Become the King of Games during the Battle City Tournament. With every card match, the opposing side loses life points!
 &emsp;
 
 <img src="https://github.com/DashlinS/matching-card-bootcamp/blob/answer/images/yugiohdemo.gif" width="700">
