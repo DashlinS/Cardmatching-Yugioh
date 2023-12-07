@@ -1,150 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Document</title>
-</head>
-<body>
-  <section class="container">
-    <!-- <section class="title allSection"></section> -->
-    <!-- BOT SECTION -->
-    <section class="botCards allSection">
-      <section class="character kaiba">
-        <section><h4></h4></section>
-      </section>
-      <section class="playMat botMat">
-        <section class="topMat">
-          <div class="botCard cardSlot" data-bot="obelisk">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/obelisk.jpg" alt="obelisk Card" class="frontOfCard">
-          </div>
-          <div class="botCard cardSlot" data-bot="obelisk">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/obelisk.jpg" alt="obelisk Card" class="frontOfCard">
-          </div>
-          <div class="botCard cardSlot" data-bot="xyz">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/xyz.png" alt="xyz card" class="frontOfCard">
-          </div>
-          <div class="botCard cardSlot" data-bot="xyz">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/xyz.png" alt="xyz card" class="frontOfCard">
-          </div>
-          <div class="botCard cardSlot" data-bot="cardvirus">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/cardvirus.png" alt="cardvirus card" class="frontOfCard">
-          </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Yugioh Card Matching</title>
+  </head>
+  <body>
+    <section class="container">
+      <!-- <section class="title allSection"></section> -->
+      <!-- BOT SECTION -->
+      <section class="botCards allSection">
+        <section class="character kaiba">
+          <section><h4></h4></section>
         </section>
-        <section class="bottomMat">
-          <div class="botCard cardSlot" data-bot="cardvirus">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/cardvirus.png" alt="cardvirus card" class="frontOfCard">
-          </div>
-          <div class="botCard cardSlot" data-bot="saggi">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/saggi.png" alt="saggi" class="frontOfCard">
-          </div>
-          <div class="botCard cardSlot" data-bot="saggi">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/saggi.png" alt="saggi" class="frontOfCard">
-          </div>
-          <div class="botCard cardSlot" data-bot="blueyes">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/blueyes.png" alt="blue eyes card" class="frontOfCard">
-          </div>
-          <div class="botCard cardSlot" data-bot="blueyes">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/blueyes.png" alt="blue eyes card" class="frontOfCard">
-          </div>
+        <section class="playMat botMat">
+          <section class="topMat">
+            <div class="botCard cardSlot" data-bot="obelisk">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img
+                src="./images/obelisk.jpg"
+                alt="obelisk Card"
+                class="frontOfCard"
+              />
+            </div>
+            <div class="botCard cardSlot" data-bot="obelisk">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img
+                src="./images/obelisk.jpg"
+                alt="obelisk Card"
+                class="frontOfCard"
+              />
+            </div>
+            <div class="botCard cardSlot" data-bot="xyz">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img src="./images/xyz.png" alt="xyz card" class="frontOfCard" />
+            </div>
+            <div class="botCard cardSlot" data-bot="xyz">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img src="./images/xyz.png" alt="xyz card" class="frontOfCard" />
+            </div>
+            <div class="botCard cardSlot" data-bot="cardvirus">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img
+                src="./images/cardvirus.png"
+                alt="cardvirus card"
+                class="frontOfCard"
+              />
+            </div>
+          </section>
+          <section class="bottomMat">
+            <div class="botCard cardSlot" data-bot="cardvirus">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img
+                src="./images/cardvirus.png"
+                alt="cardvirus card"
+                class="frontOfCard"
+              />
+            </div>
+            <div class="botCard cardSlot" data-bot="saggi">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img src="./images/saggi.png" alt="saggi" class="frontOfCard" />
+            </div>
+            <div class="botCard cardSlot" data-bot="saggi">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img src="./images/saggi.png" alt="saggi" class="frontOfCard" />
+            </div>
+            <div class="botCard cardSlot" data-bot="blueyes">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img
+                src="./images/blueyes.png"
+                alt="blue eyes card"
+                class="frontOfCard"
+              />
+            </div>
+            <div class="botCard cardSlot" data-bot="blueyes">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img
+                src="./images/blueyes.png"
+                alt="blue eyes card"
+                class="frontOfCard"
+              />
+            </div>
+          </section>
+        </section>
+        <section class="extra obeliskbackground"></section>
+      </section>
+      <!-- SCORE SECTION -->
+      <section class="middleSection allSection">
+        <!-- WIN LOSS DATA -->
+        <section class="botScore data">
+          <section class="lifePoint">
+            <h2 class="botLife">LP: <span>4000</span></h2>
+          </section>
+          <h3></h3>
+        </section>
+        <section class="winLoss data title">
+          <section class="music">
+            <a href="#"><i class="fas fa-volume-mute"></i></a>
+          </section>
+          <section class="reset"><a href="#">RESET</a></section>
+        </section>
+        <!-- BOT LIFE POINTS -->
+        <!-- PLAYER LIFE POINTS -->
+        <section class="playerScore data">
+          <h3></h3>
+          <section class="lifePoint">
+            <h2 class="playerLife">LP: <span>4000</span></h2>
+          </section>
         </section>
       </section>
-      <section class="extra obeliskbackground"></section>
-    </section>
-    <!-- SCORE SECTION -->
-    <section class="middleSection allSection">
-      <!-- WIN LOSS DATA -->
-      <section class="botScore data">
-        <section class="lifePoint">
-          <h2 class="botLife">LP: <span>4000</span></h2>
+      <!-- PLAYER SECTION -->
+      <section class="userCards allSection">
+        <section class="extra sliferbackground"></section>
+        <section class="playMat userMat">
+          <section class="topMat">
+            <div class="playerCard cardSlot" data-name="exodia">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img src="./images/exodia.png" alt="exodia" class="frontOfCard" />
+            </div>
+            <div class="playerCard cardSlot" data-name="exodia">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img src="./images/exodia.png" alt="exodia" class="frontOfCard" />
+            </div>
+            <div class="playerCard cardSlot" data-name="magician">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img
+                src="./images/darkmagician.png"
+                alt="magician"
+                class="frontOfCard"
+              />
+            </div>
+            <div class="playerCard cardSlot" data-name="magician">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img
+                src="./images/darkmagician.png"
+                alt="magician"
+                class="frontOfCard"
+              />
+            </div>
+            <div class="playerCard cardSlot" data-name="slifer">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img src="./images/slifer.png" alt="slifer" class="frontOfCard" />
+            </div>
+          </section>
+          <section class="bottomMat">
+            <div class="playerCard cardSlot" data-name="slifer">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img src="./images/slifer.png" alt="slifer" class="frontOfCard" />
+            </div>
+            <div class="playerCard cardSlot" data-name="summskull">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img
+                src="./images/summskulljpg.jpg"
+                alt="summskull"
+                class="frontOfCard"
+              />
+            </div>
+            <div class="playerCard cardSlot" data-name="summskull">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img
+                src="./images/summskulljpg.jpg"
+                alt="summskull"
+                class="frontOfCard"
+              />
+            </div>
+            <div class="playerCard cardSlot" data-name="kuriboh">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img
+                src="./images/kuriboh.png"
+                alt="kuriboh"
+                class="frontOfCard"
+              />
+            </div>
+            <div class="playerCard cardSlot" data-name="kuriboh">
+              <img
+                class="backOfCard"
+                src="./images/backofcard.jpg"
+                alt="Yugioh card back"
+              />
+              <img
+                src="./images/kuriboh.png"
+                alt="kuriboh"
+                class="frontOfCard"
+              />
+            </div>
+          </section>
         </section>
-        <h3></h3>
-      </section>
-      <section class="winLoss data title">
-        <section class="music"><a href="#"><i class="fas fa-volume-mute"></i></a></section>
-        <section class="reset"><a href="#">RESET</a></section>
-      </section>
-      <!-- BOT LIFE POINTS -->
-      <!-- PLAYER LIFE POINTS -->
-      <section class="playerScore data">
-        <h3></h3>
-        <section class="lifePoint">
-          <h2 class="playerLife">LP: <span>4000</span></h2>
+        <section class="character yugimoto">
+          <section>
+            <h4></h4>
+          </section>
         </section>
       </section>
-    </section>
-    <!-- PLAYER SECTION -->
-    <section class="userCards allSection">
-      <section class="extra sliferbackground"></section>
-      <section class="playMat userMat">
-        <section class="topMat">
-          <div class="playerCard cardSlot" data-name="exodia">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/exodia.png" alt="exodia" class="frontOfCard">
-          </div>
-          <div class="playerCard cardSlot" data-name="exodia">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/exodia.png" alt="exodia" class="frontOfCard">
-          </div>
-          <div class="playerCard cardSlot" data-name="magician">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/darkmagician.png" alt="magician" class="frontOfCard">
-          </div>
-          <div class="playerCard cardSlot" data-name="magician">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/darkmagician.png" alt="magician" class="frontOfCard">
-          </div>
-          <div class="playerCard cardSlot" data-name="slifer">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/slifer.png" alt="slifer" class="frontOfCard">
-          </div>
-        </section>
-        <section class="bottomMat">
-          <div class="playerCard cardSlot" data-name="slifer">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/slifer.png" alt="slifer" class="frontOfCard">
-          </div>
-          <div class="playerCard cardSlot" data-name="summskull">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/summskulljpg.jpg" alt="summskull" class="frontOfCard">
-          </div>
-          <div class="playerCard cardSlot" data-name="summskull">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/summskulljpg.jpg" alt="summskull" class="frontOfCard">
-          </div>
-          <div class="playerCard cardSlot" data-name="kuriboh">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/kuriboh.png" alt="kuriboh" class="frontOfCard">
-          </div>
-          <div class="playerCard cardSlot" data-name="kuriboh">
-            <img class="backOfCard" src="./images/backofcard.jpg" alt="Yugioh card back">
-            <img src="./images/kuriboh.png" alt="kuriboh" class="frontOfCard">
-          </div>
-        </section>
-      </section>
-      <section class="character yugimoto">
-        <section>
-          <h4></h4>
-        </section>
-      </section>
-    </section>
       <audio id="yugiohAudio" controls>
-        <source src="./audio/yugiohtheme.mp3" type="audio/mpeg">
+        <source src="./audio/yugiohtheme.mp3" type="audio/mpeg" />
       </audio>
-  </section>
-  <script src="./js/main.js"></script>
-  <script src="https://kit.fontawesome.com/c0e668a8ad.js" crossorigin="anonymous"></script>
-</body>
+    </section>
+    <script src="./js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c0e668a8ad.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
