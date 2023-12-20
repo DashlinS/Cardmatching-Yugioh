@@ -195,11 +195,11 @@ function musicPlay() {
   document.getElementById('yugiohAudio').play();
 }
 
-function stopMusic() {
-  document.getElementById('yugiohAudio').pause();
-  document.getElementById('yugiohAudio').src =
-    document.getElementById('yugiohAudio').src;
-}
+// function stopMusic() {
+//   document.getElementById('yugiohAudio').pause();
+//   document.getElementById('yugiohAudio').src =
+//     document.getElementById('yugiohAudio').src;
+// }
 
 function reset() {
   location.reload();
